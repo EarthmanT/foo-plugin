@@ -1,0 +1,8 @@
+setup.py
+foo_plugin/__init__.py
+foo_plugin/tasks.py
+foo_plugin.egg-info/PKG-INFO
+foo_plugin.egg-info/SOURCES.txt
+foo_plugin.egg-info/dependency_links.txt
+foo_plugin.egg-info/requires.txt
+foo_plugin.egg-info/top_level.txt

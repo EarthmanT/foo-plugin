@@ -1,0 +1,12 @@
+plugins:
+  foo:
+    executor: central_deployment_agent
+    package_name: foo-plugin
+    package_version: '0.1'
+node_types:
+  cloudify.nodes.Foo:
+    derived_from: cloudify.nodes.Root
+    interfaces:
+      cloudify.interfaces.lifecycle:
+        create:
+          implementation: foo.foo_plugin.tasks.foo
